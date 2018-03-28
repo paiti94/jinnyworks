@@ -1,0 +1,10 @@
+digraph TaskGraph {
+"item\nCPU" -> "installer\nCPU"[color=green]; 
+"item\nCPU" -> "remover\nRemove CPU"[color=red]; 
+"item\nMemory" -> "installer\nMemory"[color=green]; 
+"item\nMemory" -> "remover\nRemove Memory"[color=red]; 
+"item\nGPU" -> "installer\nGPU"[color=green]; 
+"item\nGPU" -> "remover\nRemove GPU"[color=red]; 
+"item\nPower Supply" -> "installer\nPower Supply"[color=green]; 
+"item\nPower Supply" -> "remover\nRemove Power Supply"[color=red]; 
+}
